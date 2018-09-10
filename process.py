@@ -140,8 +140,8 @@ for picture in glob.glob(r'Pic/*.jpeg'):
     faced_img=find_face_pos(filled_img.copy())
     origin=cv2.imread(picture)
     pasted_img=put(origin,faced_img,pos)
-    #正则表达式将修改后图片存到另一个文件夹Pic->done_pic
-    picture=re.sub(r'Pic','done_pic',picture)
+    #正则表达式将修改后图片存到另一个文件夹Pic->complete_pic
+    picture=re.sub(r'Pic','complete_pic',picture)
     pasted_img.save(picture)
     pos=[]
 """
