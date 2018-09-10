@@ -1,2 +1,3 @@
 # IT-WAS-ME-PIKACHU-DA-
-a simple program that change any（almost）pokemon guess image to PIKACHU
+一个简单的程序————将口袋妖怪里‘猜猜我是谁’的图，全部换成皮卡丘
+部分展示如下：
