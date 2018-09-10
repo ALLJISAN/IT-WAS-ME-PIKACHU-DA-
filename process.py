@@ -160,5 +160,9 @@ if __name__=="__main__":
     pasted_img = put(origin, faced_img, pos)
     #cv2.imshow("PIKACHU",pasted_img)
     Image._show(pasted_img)
+    
+    #可选择是否将处理后图片保存
+    #pasted_img.save('DIR--修改')
+    
     #初始化位置变量
     pos=[]
