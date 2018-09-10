@@ -1,11 +1,10 @@
 #加载需要用到的库
-import tensorflow as tf
 import numpy as np
 import cv2
 import re
 import glob
-import skimage
-import matplotlib.pyplot as plt
+#import skimage
+#import matplotlib.pyplot as plt
 from PIL import Image
 #初始化位置
 pos=[]
